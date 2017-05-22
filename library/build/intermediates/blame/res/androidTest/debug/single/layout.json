@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_info_window.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_info_window.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_webview.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_webview.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_text_bubble.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_text_bubble.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_webview.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_webview.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_info_window.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_info_window.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/res/merged/androidTest/debug/layout/amu_text_bubble.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/bundles/debug/res/layout/amu_text_bubble.xml"
+    }
+]

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="50">
+        <!--<ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/image_ll"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:src="@mipmap/moon_up"/>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/img_back_view"
+            android:background="@mipmap/day_image"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:elevation="6dp"
+            app:tabIndicatorColor="@color/grey"
+            app:tabIndicatorHeight="2dp"
+            android:background="@drawable/tab_indiacator_color"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_height="48dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margine_10"
+        android:weightSum="10"
+        android:layout_weight="50">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="7">
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/progress"
+                />
+
+        <GridView
+            android:id="@+id/cat_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"></GridView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3">
+        <com.iqadha_app.iQadhaText.SemiBoldButton
+            android:id="@+id/pray_btn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/yellow_btn"
+            android:text="@string/pray"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_18"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:textColor="@color/white" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+        </LinearLayout>
+
+</LinearLayout>

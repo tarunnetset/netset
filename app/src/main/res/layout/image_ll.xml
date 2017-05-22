@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:visibility="gone"
+
+        />
+
+    <RelativeLayout
+        android:id="@+id/nxt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:gravity="bottom">
+
+        <com.iqadha_app.iQadhaText.Bold_text
+            android:id="@+id/text_per"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_marginLeft="6dp"
+            android:layout_height="wrap_content" />
+
+
+        <com.natasa.progressviews.CircleSegmentBar
+            android:id="@+id/segment_bar"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margine_25"
+            android:visibility="visible"
+            app:bar_width="12dp"
+            app:progress_color="#fbc742"
+            app:progress_width="12dp" />
+
+
+        <com.natasa.progressviews.CircleSegmentBar
+            android:id="@+id/segment_bar2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margine_25"
+            android:visibility="visible"
+            app:bar_width="2dp"
+            app:progress_color="#fbc742"
+            app:progress_width="12dp" />
+
+        <com.iqadha_app.iQadhaText.SemiboldText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/segment_bar"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/pad5"
+            android:gravity="center"
+            android:padding="@dimen/pad5"
+            android:text="@string/top_alert_text"
+            android:textColor="@color/white" />
+
+        <View
+            android:id="@+id/vv"
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/segment_bar2"
+            android:layout_alignLeft="@+id/segment_bar"
+            android:layout_alignStart="@+id/segment_bar"
+            android:layout_marginBottom="30dp"
+            android:background="@color/view_grey"
+            android:padding="@dimen/pad10" />
+
+        <com.iqadha_app.iQadhaText.SemiboldText
+            android:id="@+id/compted_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2678 of 30231 Completed "
+            android:textColor="@color/white"
+            android:layout_alignBottom="@+id/segment_bar2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "298462018337",
+    "firebase_url": "https://iqadha-31271.firebaseio.com",
+    "project_id": "iqadha-31271",
+    "storage_bucket": "iqadha-31271.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298462018337:android:70e1040bed5bbe13",
+        "android_client_info": {
+          "package_name": "com.iqadha_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298462018337-uu5j7cajod5r1gck65m2l069cpmp18nc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iqadha_app",
+            "certificate_hash": "CA620F2AE3316D2892C6AEBE5BCC87C3AEFD16E5"
+          }
+        },
+        {
+          "client_id": "298462018337-g81cbp4lrlopkh62u0elu210vm30q9j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Sz-g_EYLrR1TaPqljJJapPdJXQCdZds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298462018337-g81cbp4lrlopkh62u0elu210vm30q9j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

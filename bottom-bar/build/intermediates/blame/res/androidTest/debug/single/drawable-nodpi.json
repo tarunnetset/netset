@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/drawable-nodpi/empty_icon.png",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/src/androidTest/res/drawable-nodpi/empty_icon.png"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/drawable-nodpi/empty_icon.png",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/src/androidTest/res/drawable-nodpi/empty_icon.png"
+    }
+]

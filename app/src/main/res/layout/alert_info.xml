@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="450dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad15">
+
+        <com.iqadha_app.iQadhaText.SemiboldText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help Center"
+            android:textColor="#888888"
+            android:textSize="@dimen/text_18" />
+
+        <ImageView
+            android:id="@+id/dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/crossfast" />
+    </RelativeLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/view_grey"/>
+    <ExpandableListView
+        android:id="@+id/questions"
+        android:groupIndicator="@null"
+        android:divider="@color/view_grey"
+        android:dividerHeight="1dp"
+        android:childDivider="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ExpandableListView>
+
+</LinearLayout>

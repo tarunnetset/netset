@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/library/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/res/merged/androidTest/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/library/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

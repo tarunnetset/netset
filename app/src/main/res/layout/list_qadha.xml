@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/some_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margine_50" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.iqadha_app.iQadhaText.Bold_text
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/margine_20"
+            android:paddingTop="@dimen/margine_20"
+            android:text="Total Quadha "
+            android:textSize="@dimen/text_16"
+            android:textStyle="bold" />
+
+        <com.iqadha_app.iQadhaText.Regular_Text
+            android:id="@+id/total_prayers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tt"
+            android:paddingTop="@dimen/margine_20"
+            android:text="3345"
+            android:textSize="@dimen/text_16"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/qadha_list"
+        android:layout_width="match_parent"
+        android:padding="@dimen/pad20"
+        android:divider="@color/view_grey"
+        android:dividerHeight="1dp"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

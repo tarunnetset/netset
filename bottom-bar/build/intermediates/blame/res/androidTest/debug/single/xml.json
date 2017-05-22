@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_three.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/src/androidTest/res/xml/dummy_tabs_three.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_five.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/src/androidTest/res/xml/dummy_tabs_five.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_five.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/src/androidTest/res/xml/dummy_tabs_five.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/androidTest/debug/xml/dummy_tabs_three.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/src/androidTest/res/xml/dummy_tabs_three.xml"
+    }
+]

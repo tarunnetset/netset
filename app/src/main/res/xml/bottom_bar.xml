@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <tab
+        icon="@mipmap/home_light"
+        id="@+id/tab_home"
+       />
+    <tab
+        icon="@mipmap/fast"
+        id="@+id/tab_fast"
+       />
+    <tab
+        icon="@mipmap/location"
+        id="@+id/tab_loc"
+       />
+    <tab
+        icon="@mipmap/information"
+        id="@+id/tab_info"
+      />
+    <tab
+        icon="@mipmap/settings"
+        id="@+id/tab_setting"
+       />
+</tabs>

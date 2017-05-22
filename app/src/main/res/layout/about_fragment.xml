@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margine_20"
+    android:paddingRight="@dimen/margine_20"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/about_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:paddingTop="@dimen/margine_20"
+        android:paddingLeft="@dimen/pad5"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16"
+        android:textStyle="bold" />
+
+    <com.iqadha_app.iQadhaText.Regular_Text
+        android:id="@+id/about_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad5"
+        android:layout_marginTop="@dimen/pad10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16"
+         />
+
+</LinearLayout>

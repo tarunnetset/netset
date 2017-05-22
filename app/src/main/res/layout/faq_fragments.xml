@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/faq_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad15"
+        android:text="Frequently Asked Questions"
+        android:textSize="@dimen/text_16"
+        android:textStyle="bold" />
+
+    <ExpandableListView
+        android:id="@+id/questions"
+        android:layout_width="match_parent"
+        android:groupIndicator="@null"
+        android:divider="@color/view_grey"
+        android:dividerHeight="1dp"
+        android:layout_height="wrap_content"></ExpandableListView>
+
+
+</LinearLayout>

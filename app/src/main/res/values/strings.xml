@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">iQadha</string>
+    <string name="email">Email address</string>
+    <string name="pass">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up"><u>Sign up here</u></string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="signup">Sign up</string>
+    <string name="already_account">Already have an account?</string>
+    <string name="sign_in"><u>Sign in here</u></string>
+    <string name="complte_follow">Complete the following</string>
+    <string name="date">Date of Birth</string>
+    <string name="format">DD/MM/YY</string>
+    <string name="balig_date">Baligh Date</string>
+    <string name="you_should">You should have prayed</string>
+    <string name="pray">Pray Qadha</string>
+    <string name="fast">Add Fasts</string>
+    <string name="dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+
+    <string name="info_email">For all supports or requests please </string>
+    <string name="contact">Contact us on  </string>
+    <string name="emailis"> info@halal.cc</string>
+    <string name="aim">We aim to respond to all emails \n within 24 hours</string>
+
+
+    <string name="develop_by">iQadha was developed by </string>
+    <string name="click_halal">Halal Click-www.halal.cc </string>
+    <string name="jazak">JazakAllah khairan</string>
+    <string name="iqadha_team">iQadha Team</string>
+    <string name="app_version">App version 1.0.0</string>
+    <string name="account">Account</string>
+    <string name="noti">Notifications</string>
+    <string name="slah">We automatically add Salah to your \nqadha if you do not login daily to pray</string>
+    <string name="edit">Edit Total</string>
+    <string name="top_alert_text">September 24, 2016 Saturday \nDull-Hijjah 22, 1437 As-Sabt</string>
+    <string name="signout_text">All your data is saved on the iQadha cloud.You can login in anytime again in the future online or via this app.</string>
+    <string name="select_valid_date">Select valid date</string>
+    <string name="already_registered">User already registered with same email address</string>
+    <string name="not_baligh">You are not Baligh</string>
+
+</resources>

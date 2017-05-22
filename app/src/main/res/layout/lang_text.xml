@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/languae_tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad10"
+        android:text="English"
+        android:textColor="@color/light_grey_new"
+        android:textSize="@dimen/text_17"
+        android:textStyle="bold" />
+
+</LinearLayout>

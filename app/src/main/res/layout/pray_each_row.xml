@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="@dimen/pad5"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:gravity="center"
+            android:layout_height="25dp">
+        <ImageView
+            android:id="@+id/pray_imageis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/zuhr"/>
+        </LinearLayout>
+        <com.iqadha_app.iQadhaText.SemiboldText
+            android:id="@+id/_pray_typis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zuhr"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_16"
+            android:padding="@dimen/pad5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+       android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad4"
+            android:src="@mipmap/minus"/>
+        <com.iqadha_app.iQadhaText.SemiboldText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18"
+            android:id="@+id/text_set"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_18"
+            android:padding="@dimen/pad10"/>
+        <ImageView
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/pad4"
+            android:src="@mipmap/plus"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/pad10"
+        android:gravity="center"
+        android:padding="@dimen/margine_10"
+        android:text="Comparision"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="65"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/margine_60"
+            android:layout_marginRight="@dimen/margine_60">
+
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/weekis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:padding="@dimen/pad10"
+                android:text="Week"
+                android:textSize="@dimen/text_14"
+                android:textColor="@color/grey"
+              />
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/monthis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:padding="@dimen/pad10"
+                android:text="Month"
+                android:textSize="@dimen/text_14"
+                android:textColor="@color/green"
+                 />
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/yearis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/pad10"
+                android:text="Year"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_14" />
+
+        </RelativeLayout>
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart1"
+            android:layout_margin="@dimen/pad10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <!--    <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/pad15"
+        android:paddingRight="@dimen/pad15"
+        android:layout_marginTop="@dimen/margine_30"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/green"
+                android:gravity="center"
+                android:text=" Last Month"
+                android:textColor="@color/light_grey_new"
+                android:textSize="@dimen/text_14"
+            />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margine_20"
+                    android:text="Total Prayed"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_13" />
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="528"
+                    android:textStyle="bold"
+                    android:paddingTop="@dimen/pad5"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/blue"
+                android:gravity="center"
+                android:text=" This Month"
+                android:textColor="@color/light_grey_new"
+                android:textSize="@dimen/text_14"
+                 />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margine_20"
+                    android:text="Total Prayed"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_14" />
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="528"
+                    android:paddingTop="@dimen/pad5"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@mipmap/color_do"
+                android:gravity="center|top"
+                android:text=" Change"
+                android:textSize="@dimen/text_13"
+                android:textColor="@color/light_grey_new" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margine_20"
+                    android:text="COMPARISON"
+                    android:textAllCaps="true"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_13" />
+
+                <com.iqadha_app.iQadhaText.Regular_Text
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="+72"
+                    android:textStyle="bold"
+                    android:paddingTop="@dimen/pad5"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_20" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

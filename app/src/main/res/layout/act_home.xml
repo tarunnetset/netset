@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/margine_60"
+        android:layout_height="match_parent" />
+    <com.iqadha_app.Utils.ActionBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/action_bar"></com.iqadha_app.Utils.ActionBar>
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/bottomBar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margine_60"
+            android:layout_alignParentBottom="true"
+            app:bb_activeTabColor="@color/black"
+            android:gravity="center"
+
+            app:bb_inActiveTabColor="@color/grey"
+            app:bb_behavior="underNavbar|shy"
+            app:bb_tabXmlResource="@xml/bottom_bar" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

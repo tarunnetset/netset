@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/design/25.0.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    }
+]

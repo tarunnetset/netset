@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margine_7"
+        android:background="@color/white">
+
+
+        <RelativeLayout
+            android:id="@+id/out_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/pad5"
+            android:orientation="vertical"
+           >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/pad5"
+                android:layout_height="wrap_content">
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/pray_typ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/balig_date"
+                android:padding="@dimen/pad5"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_14" />
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:id="@+id/count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pray_typ"
+                android:gravity="center"
+                android:text="@string/format"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_19" />
+            </RelativeLayout>
+            <ImageView
+                android:id="@+id/pray_image_g"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_launcher"
+                android:layout_height="wrap_content"
+                />
+        </RelativeLayout>
+
+
+
+    </FrameLayout>
+
+</LinearLayout>

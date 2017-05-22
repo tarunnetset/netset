@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/pad20"
+    android:paddingTop="@dimen/pad20">
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/pray_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="fazr"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_16" />
+
+    <ImageView
+        android:id="@+id/pray_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/fajr" />
+
+    <com.iqadha_app.iQadhaText.Regular_Text
+        android:id="@+id/count_p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="0946"
+        android:textColor="@color/light_grey_new"
+        android:textSize="@dimen/text_16" />
+
+</RelativeLayout>

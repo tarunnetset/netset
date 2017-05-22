@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/txt_hh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margine_10"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margine_20"
+        android:text="@string/you_should"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_21" />
+
+    <GridView
+        android:id="@+id/cat"
+        android:layout_below="@+id/txt_hh"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginLeft="@dimen/margine_7"
+        android:layout_marginRight="@dimen/margine_7"
+        android:layout_marginTop="@dimen/text_20"
+        android:numColumns="3"></GridView>
+
+
+    <LinearLayout
+        android:id="@+id/apply_ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+         android:visibility="invisible"
+        android:layout_marginLeft="@dimen/margine_60"
+        android:layout_marginRight="@dimen/margine_60"
+        android:orientation="horizontal"
+        android:layout_below="@+id/cat"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <com.iqadha_app.iQadhaText.SemiBold_edit
+                android:id="@+id/edit_count_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1543"
+                android:background="@null"
+                android:inputType="number"
+                android:singleLine="true"
+                android:focusableInTouchMode="true"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/apply_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/light_green"
+            android:gravity="center">
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Apply"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_16"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.iqadha_app.iQadhaText.SemiBoldButton
+        android:id="@+id/signup_done"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margine_60"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_btn"
+        android:text="Done"
+        android:elevation="0dp"
+        android:stateListAnimator="@null"
+        android:paddingLeft="@dimen/margine_10"
+        android:textSize="@dimen/text_20"
+        android:drawableRight="@mipmap/tick_new"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textColor="@color/green" />
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.iqadha_app.iQadhaText.Regular_Text
+        android:id="@+id/child_text"
+        android:paddingLeft="@dimen/pad15"
+        android:paddingRight="@dimen/pad15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="This text randomly generated (lorem ipsum) can be used in your layout (webdesign, websites, books, posters ...) for free. This text is entirely free of law." />
+
+</LinearLayout>

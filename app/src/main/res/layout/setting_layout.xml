@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/some_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margine_50"
+        android:layout_gravity="center" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:overScrollMode="ifContentScrolls">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.iqadha_app.iQadhaText.Bold_text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/pad15"
+                    android:text="@string/account"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_16"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/name_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="@dimen/pad15"
+                        android:text="Name"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:id="@+id/name_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:text=""
+                        android:textColor="@color/light_grey_new"
+
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <LinearLayout
+                    android:id="@+id/email_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+
+                        android:text="Email"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:id="@+id/email_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <LinearLayout
+                    android:id="@+id/gender_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+                        android:text="Gender"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:id="@+id/gender_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <LinearLayout
+                    android:id="@+id/phone_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+                        android:text="Phone Number"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:id="@+id/phone_number_user"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_16" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <LinearLayout
+                    android:id="@+id/lang_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+                        android:text="Language"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <LinearLayout
+                    android:id="@+id/sign_out_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+                        android:text="Sign out"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <com.iqadha_app.iQadhaText.Bold_text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/pad15"
+                    android:text="@string/noti"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_16"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:id="@+id/reminder"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/pad5"
+                        android:text="Qadha reminder"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/reminder"
+                        android:paddingLeft="@dimen/pad15"
+                        android:text="Every 12 hours"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_16" />
+
+                    <Switch
+                        android:id="@+id/m_switch_discover"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dip"
+                        android:layout_marginTop="5dip"
+                        android:focusable="true"
+                        android:paddingRight="@dimen/margine_20"
+                        android:textOff="Off"
+                        android:textOn="On"
+                        android:thumb="@mipmap/seek_thumb"
+                        android:track="@drawable/check_toggle" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.iqadha_app.iQadhaText.SemiboldText
+                        android:id="@+id/auto_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/pad15"
+                        android:paddingTop="@dimen/margine_10"
+                        android:text="Auto Update"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_17"
+                        android:textStyle="bold" />
+
+                    <com.iqadha_app.iQadhaText.Regular_Text
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/auto_update"
+                        android:paddingLeft="@dimen/pad15"
+                        android:text="@string/slah"
+                        android:textColor="@color/light_grey_new"
+                        android:textSize="@dimen/text_16" />
+
+                    <Switch
+                        android:id="@+id/switch_salah"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginBottom="5dip"
+                        android:layout_marginTop="5dip"
+                        android:focusable="true"
+                        android:paddingRight="@dimen/margine_20"
+                        android:textOff="Off"
+                        android:textOn="On"
+                        android:thumb="@mipmap/seek_thumb"
+                        android:track="@drawable/check_toggle" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/pad5">
+
+                <com.iqadha_app.iQadhaText.Bold_text
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/pad15"
+                    android:text="@string/edit"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_16"
+                    android:textStyle="bold" />
+
+                <com.iqadha_app.iQadhaText.SemiboldText
+                    android:id="@+id/quadha_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/pad15"
+                    android:text="Qadha"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_17"
+                    android:paddingTop="@dimen/pad5"
+                    android:paddingBottom="@dimen/pad5"
+                    android:textStyle="bold" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/view_grey" />
+
+                <com.iqadha_app.iQadhaText.SemiboldText
+                    android:id="@+id/fasts_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/pad15"
+                    android:paddingTop="@dimen/margine_10"
+                    android:paddingBottom="@dimen/pad5"
+                    android:text="Fasts"
+                    android:layout_marginBottom="@dimen/pad15"
+                    android:textColor="@color/light_grey_new"
+                    android:textSize="@dimen/text_17"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

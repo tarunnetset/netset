@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_linear"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rr"
+            android:padding="@dimen/pad15">
+
+            <com.iqadha_app.iQadhaText.Regular_Text
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/top_alert_text"
+                android:textColor="#888888"
+                android:textSize="@dimen/text_16" />
+
+            <ImageView
+                android:id="@+id/dismiss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/crossfast" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/vv"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rr"
+            android:background="@color/view_grey" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_below="@+id/vv"
+            android:paddingLeft="@dimen/pad15"
+            android:id="@+id/ll_linear"
+            android:paddingTop="@dimen/pad10"
+            android:paddingRight="@dimen/pad15">
+
+            <ListView
+                android:id="@+id/list_pray"
+                android:layout_width="match_parent"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"
+                android:layout_height="200dp"></ListView>
+        </LinearLayout>
+
+            <com.iqadha_app.iQadhaText.SemiBoldButton
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/ll_linear"
+                android:background="@drawable/yellow_btn"
+                android:text="Save"
+                android:stateListAnimator="@null"
+                android:elevation="0dp"
+                android:textSize="@dimen/text_16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/pad20"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

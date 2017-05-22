@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+
+    <com.iqadha_app.iQadhaText.SemiboldText
+        android:id="@+id/msg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margine_10"
+        android:textStyle="bold"
+        android:text="@string/complte_follow"
+        android:layout_marginTop="@dimen/margine_20"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_21" />
+
+
+
+    <LinearLayout
+        android:id="@+id/date_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/pick_dob"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margine_10"
+            android:layout_weight="1"
+            android:background="@color/light_green"
+            android:orientation="vertical"
+            android:padding="@dimen/pad5">
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/txtdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/pad5"
+                android:textSize="@dimen/text_16"
+                android:text="@string/date"
+                android:textColor="@color/white" />
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:id="@+id/dob_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/pad5"
+                android:text="@string/format"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_20"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/pick_baligh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margine_10"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="@dimen/pad5">
+
+            <com.iqadha_app.iQadhaText.SemiboldText
+                android:id="@+id/balig_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_16"
+                android:padding="@dimen/pad5"
+                android:text="@string/balig_date"
+                android:textColor="@color/green" />
+
+            <com.iqadha_app.iQadhaText.Bold_text
+                android:id="@+id/baligh_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/pad5"
+                android:text="@string/format"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_20"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/date_ll"
+        android:id="@+id/cal_ll"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+
+
+    <com.iqadha_app.iQadhaText.SemiBoldButton
+        android:id="@+id/next"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margine_60"
+        android:paddingLeft="@dimen/margine_20"
+        android:background="@drawable/rounded_btn"
+        android:text="Next"
+        android:textSize="@dimen/text_20"
+        android:stateListAnimator="@null"
+        android:elevation="0dp"
+  android:visibility="gone"
+        android:drawableRight="@mipmap/nxt_green"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        />
+
+
+</RelativeLayout>

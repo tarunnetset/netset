@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/netset/NehaProjects/iQadha/Android/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/home/netset/AndroidStudioProjects/iQadha/bottom-bar/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.0/res/layout-v21/notification_action.xml"
+    }
+]
